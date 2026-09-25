@@ -1,0 +1,30 @@
+
+    {
+    // 核心编码设置
+    "files.encoding": "utf8",
+    "files.autoGuessEncoding": true,
+    "files.autoSave": "afterDelay",
+
+    // 终端设置 (Windows)
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "args": ["-NoExit", "-Command", "chcp 65001"]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+    // 字体与渲染
+    "editor.fontFamily": "'Cascadia Code', 'Consolas', 'Courier New', monospace",
+    "editor.fontLigatures": true,
+
+    // 语言环境
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    }
+}
+
