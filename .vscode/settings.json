@@ -27,6 +27,7 @@
         }
     },
     "C_Cpp.autocompleteAddParentheses": true,
-    "C_Cpp.default.compilerPath": "D:/MSYS2/ucrt64/bin/gcc.exe"
+    "C_Cpp.default.compilerPath": "D:/MSYS2/ucrt64/bin/gcc.exe",
+    "editor.fontSize": 18
 }
 
